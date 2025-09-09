@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Gbox - Auth",
+  description:
+    "Gbox unifies your Google and Outlook emails into a single, clutter-free space. Fast, secure, and built with simplicity at its core.",
+};
+
 export default function AuthScreeb() {
   return (
     <div className="h-screen w-full bg-gray-50 *:font-sans">
@@ -10,7 +16,7 @@ export default function AuthScreeb() {
           <div className="max-w-lg text-center">
             <p className="text-3xl md:text-4xl text-black font-medium text-center mb-2 ">
               Welcome Back!
-            </p> 
+            </p>
             <p className="text-sm text-neutral-500 px-4 sm:px-2">
               <span className="text-black font-medium">Gbox</span> unifies your{" "}
               <span className="text-black font-medium">Google</span> and{" "}
